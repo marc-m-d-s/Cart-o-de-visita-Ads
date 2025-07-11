@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Criar Anúncio - MiniAds</title>
+
+  <!-- Link para o arquivo CSS externo -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 style="text-align:center;">CRIAR ANÚNCIO.</h1>
+
+  <form id="adForm" enctype="multipart/form-data">
+    <label for="nome">Nome ou Empresa *</label>
+    <input type="text" id="nome" name="nome" required minlength="3" maxlength="50" placeholder="Ex: João da Serralheria" />
+
+    <label for="descricao">Descrição *</label>
+    <textarea id="descricao" name="descricao" required minlength="10" maxlength="200" rows="4" placeholder="Descrição curta do serviço ou produto"></textarea>
+
+    <label for="cidade">Cidade *</label>
+    <input type="text" id="cidade" name="cidade" required placeholder="Ex: Montes Claros - MG" />
+
+    <label for="whatsapp">Número WhatsApp *</label>
+    <input type="tel" id="whatsapp" name="whatsapp" required pattern="\d{10,15}" placeholder="Ex: 5538999999999 (somente números)" />
+
+    <label for="imagem">Foto ou Logo (JPG/PNG) *</label>
+    <input type="file" id="imagem" name="imagem" accept="image/png, image/jpeg" required />
+
+    <button type="submit">ENVIAR ANÚNCIO</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('adForm');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Formulário enviado com sucesso! Em breve seu anúncio será avaliado.');
+      form.reset();
+    });
+  </script>
+
+</body>
+</html>

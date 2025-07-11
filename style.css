@@ -1,0 +1,117 @@
+<style>
+/* Estilos para o index (Cartão)*/
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    .ad-card {
+      width: 100%;
+      max-width: 320px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .ad-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 12px;
+    }
+
+    .ad-card h2 {
+      font-size: 18px;
+      margin: 8px 0 4px;
+      color: #222;
+    }
+
+    .ad-card p {
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+      margin: 4px 0 8px;
+    }
+
+    .ad-card .cidade {
+      font-size: 13px;
+      color: #888;
+    }
+
+    .ad-card a.whatsapp-button {
+      display: inline-block;
+      margin-top: 12px;
+      background-color: #25D366;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+
+    .ad-card a.whatsapp-button:hover {
+      background-color: #1ebc58;
+    }
+ 
+/* Estilos para o create (Formulário)*/
+
+    body {
+     font-family: Arial, sans-serif;
+     background: #f7f7f7;
+     padding: 20px;
+    }
+
+    form {
+     max-width: 400px;
+     margin: 0 auto;
+     background: white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    label {
+     display: block;
+     margin-top: 15px;
+     font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    textarea,
+    input[type="file"] {
+     width: 100%;
+     padding: 8px;
+     margin-top: 6px;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+     font-size: 14px;
+    }
+
+    button {
+     margin-top: 20px;
+     background-color: #25D366;
+     color: white;
+     border: none;
+     padding: 12px;
+     width: 100%;
+     font-size: 16px;
+     border-radius: 8px;
+     cursor: pointer;
+     font-weight: bold;
+     transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+     background-color: #1ebc58;
+    }
+</style>

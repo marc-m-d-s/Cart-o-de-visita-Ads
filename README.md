@@ -1,4 +1,4 @@
-# MiniAds - Sistema simples de Cartões de Anúncios para sites parceiros - em desenvolviemnto
+# MiniAds - Sistema simples de Cartões de Anúncios para sites parceiros - em desenvolvimento
 
 Projeto desenvolvido para criar e exibir anúncios em formato de cartão digital, que podem ser embutidos em sites parceiros via iframe ou script. Os anunciantes criam seus cartões (com nome, descrição, contato e imagem) e pagam para aparecer nos sites.
 
